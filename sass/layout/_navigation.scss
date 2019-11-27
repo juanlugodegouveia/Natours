@@ -63,6 +63,7 @@
         z-index: 1500;
         opacity: 0; //To hide the nav
         width: 0; //To hide the nav 
+        visibility: hidden; //To hide the nav
         transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
@@ -71,6 +72,7 @@
     &__checkbox:checked ~ &__nav { //To select the sibiling  
         opacity: 1; //To show the nav
         width: 100%; //To show the nav 
+        visibility: visible; //To hide the nav
     }
 
     &__list {
