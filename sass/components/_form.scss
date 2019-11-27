@@ -52,11 +52,11 @@
     }
 
     &__radio-group {
-        width: 49%;
+        width: 48%;
         display: inline-block;
 
         @include respond(tab-port) {
-            width: 100%;
+            width: 51%;
             margin-bottom: 2rem;
         }
     }

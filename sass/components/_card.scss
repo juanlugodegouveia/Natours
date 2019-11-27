@@ -14,6 +14,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        -webkit-backface-visibility: hidden; //To hide the back part of an element
         backface-visibility: hidden; //To hide the back part of an element
         border-radius: 3px;
         overflow: hidden; //to hide the overlap image 
