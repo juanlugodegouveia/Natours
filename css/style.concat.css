@@ -576,6 +576,10 @@ body {
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+    @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+      .heading-secondary:hover {
+        transform: none;
+        text-shadow: none; } }
 
 .heading-tertiary {
   font-size: 1.6rem;
@@ -890,6 +894,9 @@ body {
         margin-bottom: 0rem; } }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
+    @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+      .feature-box:hover {
+        transform: none; } }
 
 .story {
   width: 75%;
